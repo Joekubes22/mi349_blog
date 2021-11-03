@@ -1,24 +1,39 @@
 html {
 
-    background: black;
+    background-color: black;
 }
 
 
 
 body {
     font-family:Arial, Helvetica, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    margin-top: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
     color: #242424;
     background: #fff;
 }
 
 h1 { 
     font-size: 3em;
-    margin: 0; 
+    margin: 0px; 
+    padding: 0px;
     color: white;
 
+}
+
+h2 {
+
+   text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+
+    padding-left: 15px;
 }
 
 p {
@@ -27,16 +42,77 @@ line-height: 1.4em;
 }
 
 
-#blog{
+#Macbook1 {
+ float: left;
+ margin-right: 15px;
+ margin-top: 15px;
 
-    border-top: 1px dashed #ccc;
 
+  
+}
+
+
+#Iphone14 {
+     float: left;
+     margin-right: 10px;
+     margin-top: 10px;
+     border: 3px solid black;
+}
+
+#joepic{
+
+    float:left;
+    margin-right: 10px;
+    border: 5px solid black;
+}
+
+.time1{
+    text-align: center;
+}
+
+
+
+
+#table1, th, td{
+
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid black;
+  
 }
 
 .blog-post{
 
 border-bottom: 1px dashed #ccc;
 
+}
+
+#blog {
+
+  display: flex;
+  
+  padding:  20px;
+  margin: 20px;
+ 
+ 
+}
+
+article {
+  
+  padding: 20px;
+  margin: 20px;
+  
+}
+
+#author1 {
+
+    align-items: center;
+}
+
+
+form{
+
+    padding-left: 15px;
 }
 
 /* links */
@@ -67,7 +143,12 @@ color: black;
 
 ul{
 
-list-style: none;
+
+
+}
+
+form  {
+padding-bottom: 15px;
 
 }
 
@@ -80,6 +161,9 @@ list-style: none;
 
 
 #main-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
     background: black;
     display: flex;
     align-items: center;
@@ -87,33 +171,29 @@ list-style: none;
     height: 60px;
     padding: 10px;
     font-size: 14px;
-    border-top: 0px; 
-    
     text-decoration: none;
+    margin-bottom: 50px;
     
    
 
 }
 
 #main-nav ul{
-    display: flex;
-    
-    
+    display: flex; 
+     
 }
 
 #main-nav ul li{
     padding: 0 10px;
     list-style: none;
-    
-    
+ 
 }
 
 #main-nav ul li a{
     padding-bottom: 2px;
     text-decoration: none;
     color: white;
-    
-
+  
 }
 
 #main-nav ul li a:hover{
@@ -125,7 +205,7 @@ list-style: none;
 #main-nav .main-menu{
     flex: 1;
     margin-left:20px;
+  
+   
 }
-
-
 

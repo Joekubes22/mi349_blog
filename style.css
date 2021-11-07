@@ -206,6 +206,19 @@ padding-bottom: 15px;
     flex: 1;
     margin-left:20px;
   
-   
+}
+
+/* media Queries */
+
+
+@media (max-width: 400px) {
+    
+#blog{
+
+    display:flex;
+    flex-direction: column;
+    
+}
+
 }
 

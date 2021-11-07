@@ -211,7 +211,7 @@ padding-bottom: 15px;
 /* media Queries */
 
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     
 #blog{
 
@@ -219,6 +219,24 @@ padding-bottom: 15px;
     flex-direction: column;
     
 }
+
+body{
+
+    background: black;
+    color:#fff;
+}
+
+a{
+    color:#fff;
+}
+
+a:hover {
+
+    text-decoration: underline;
+    color: #fff;
+    
+    }
+
 
 }
 
